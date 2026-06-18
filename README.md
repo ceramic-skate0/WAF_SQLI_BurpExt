@@ -65,3 +65,14 @@ Contributions, bug reports, and payload additions are welcome!
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+``
+sqlmap -u "https://example.com" 
+  --code=200 
+  --technique=B 
+  --test-filter="Boolean-based blind - Parameter replace" 
+  --skip-heuristics 
+  --no-cast 
+  --batch 
+  --flush-session
+``
